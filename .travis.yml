@@ -1,2 +1,5 @@
 language: csharp
 solution: src/Words.sln
+deploy:
+  provider: azure_web_apps
+  skip_cleanup: true
