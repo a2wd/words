@@ -3,4 +3,5 @@ solution: src/Words.sln
 deploy:
   provider: azure_web_apps
   skip_cleanup: true
- on: deployments  
+  on:
+    branch: deployments  
